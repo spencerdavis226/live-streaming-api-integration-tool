@@ -1,0 +1,28 @@
+.broadcast-list {
+  width: 100%;
+}
+
+.broadcast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.broadcast-list-empty {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
+
+.broadcast-list-empty p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .broadcast-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}

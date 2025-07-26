@@ -1,0 +1,117 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+.user-welcome {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-welcome h2 {
+  margin: 0;
+  color: #333;
+}
+
+.user-welcome p {
+  margin: 0.25rem 0 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.refresh-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.refresh-btn:hover:not(:disabled) {
+  border-color: #007bff;
+  color: #007bff;
+}
+
+.refresh-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.dashboard-content {
+  min-height: 300px;
+}
+
+.broadcasts-summary {
+  margin-bottom: 1.5rem;
+}
+
+.broadcasts-summary h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.no-broadcasts {
+  color: #666;
+  font-style: italic;
+}
+
+.no-broadcasts a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.no-broadcasts a:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  background: #fee;
+  border: 1px solid #fcc;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-message p {
+  margin: 0;
+  color: #c33;
+}
+
+.error-message button {
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #c33;
+  border-radius: 4px;
+  background: white;
+  color: #c33;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.error-message button:hover {
+  background: #c33;
+  color: white;
+}
