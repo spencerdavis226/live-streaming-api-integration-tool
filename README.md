@@ -1,5 +1,14 @@
 # YouTube Live Streaming API Integration Tool
 
+
+## 📺 Demo Video
+
+Check out a short demo of this project on YouTube:
+
+[![YouTube Demo](https://img.youtube.com/vi/4e_eCN_Lsqs/0.jpg)](https://youtube.com/shorts/4e_eCN_Lsqs?feature=share)
+
+---
+# YouTube Live Streaming API Integration Tool
 A full-stack application for managing YouTube Live broadcasts with Google OAuth 2.0 authentication. Built with React (frontend) and Node.js/Express (backend).
 
 ## Features
